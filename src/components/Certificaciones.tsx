@@ -52,7 +52,7 @@ function Certificaciones() {
             </div>
             <h2 className="titleCertificado">Introduction to Python</h2>
             <p>
-              Fundamentos de python, estrucuta de datos, condicionales y
+              Fundamentos de python, estructura de datos, condicionales y
               ejercicios practicos.
             </p>
           </div>
