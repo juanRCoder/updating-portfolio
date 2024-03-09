@@ -1,0 +1,59 @@
+.contactameContainer {
+  flex-direction: column;
+  margin: auto;
+  align-items: flex-start;
+  background-color: rgba(221, 221, 221, 0.0666666667);
+  border-radius: 0;
+  max-width: 1365px;
+  padding: 50px 0;
+
+  > h1 {
+    color: #26e6ff;
+    font-size: 43px;
+    text-align: left;
+    margin: 0;
+    padding: 0 5%;
+
+    @media (max-width: 1024px) {
+      font-size: 35px;
+    }
+
+    @media (max-width: 380px) {
+      font-size: 30px;
+    }
+  }
+  > p {
+    font-size: x-large;
+    margin: -14px 0 0;
+    padding: 10px 5% 10px;
+
+    @media (max-width: 860px) {
+      font-size: medium;
+      text-align: justify;
+    }
+  }
+
+  .boxContact {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > a {
+      color: #539ea8;
+      text-align: center;
+      font-size: x-large;
+      margin: 20px;
+
+      .iconContact {
+        font-size: 80px;
+        color: #539ea8;
+      }
+      > p {
+        margin: -10px 0px 0px;
+      }
+    }
+  }
+}

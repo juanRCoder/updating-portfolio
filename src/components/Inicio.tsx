@@ -19,7 +19,7 @@ function Inicio() {
         </div>
       </div>
       <div className="containerPerfil_Info">
-        <h2>Sobre mi:</h2>
+        <h2>Sobre mi</h2>
         <p>
           "Hola, soy Juan Guillermo Ramirez Montalvan, me encanta crear cosas
           nuevas, innovadoras y eficientes para el disfrute de la sociedad. Mis

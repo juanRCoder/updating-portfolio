@@ -27,7 +27,7 @@ import "../styles/habilidades.scss";
 function Habilidades() {
   return (
     <section className="habilidadesContainer" id="habilidades">
-      <h1>Habilidades:</h1>
+      <h1>Habilidades</h1>
       <p>
         Tecnologias - Lenguajes - Herramientas y frameworks en constante
         aprendizaje:

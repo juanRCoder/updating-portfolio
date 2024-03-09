@@ -17,7 +17,7 @@ function Certificaciones() {
 
   return (
     <section className="certificacionesContainer" id="certificaciones">
-      <h1>Certificaciones:</h1>
+      <h1>Certificaciones</h1>
       <p>
         Estoy orgulloso de mis logros obtenidos en mi carrera actual. Espero
         conseguir más logros en mi vida. Qué puedo decir, me encanta el

@@ -1,7 +1,8 @@
 import { GiHamburgerMenu } from "react-icons/gi";
+import CV from "./assets/JuanRamirez_CV.pdf";
 import Logo from "./assets/logo.png";
-import "./App.scss";
 import { useState } from "react";
+import "./App.scss";
 
 function App() {
   const [btnHamburger, setBtnHamburger] = useState(false);
@@ -30,10 +31,18 @@ function App() {
             <a href="#certificaciones">Certificaciones</a>
           </li>
           <li>
-            <a href="#">Contactamé</a>
+            <a href="#contactame">Contactamé</a>
           </li>
+
           <li>
-            <a href="#">CV</a>
+            <a
+              href={CV}
+              download="juanRamirez_CV.pdf"
+              type="application/pdf"
+              target="_BLANK"
+            >
+              CV
+            </a>
           </li>
         </ul>
       </nav>
@@ -45,7 +54,9 @@ function App() {
         >
           <ul>
             <li>
-              <a href="#inicio" onClick={handleClick}>Inicio</a>
+              <a href="#inicio" onClick={handleClick}>
+                Inicio
+              </a>
             </li>
             <li>
               <a href="#habilidades" onClick={handleClick}>
@@ -53,16 +64,25 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#proyectos" onClick={handleClick}>Proyectos</a>
+              <a href="#proyectos" onClick={handleClick}>
+                Proyectos
+              </a>
             </li>
             <li>
               <a href="#certificaciones">Certificaciones</a>
             </li>
             <li>
-              <a href="#">Contactamé</a>
+              <a href="#contactame">Contactamé</a>
             </li>
             <li>
-              <a href="#">CV</a>
+              <a
+                href={CV}
+                download="juanRamirez_CV.pdf"
+                type="application/pdf"
+                target="_BLANK"
+              >
+                CV
+              </a>
             </li>
           </ul>
         </div>

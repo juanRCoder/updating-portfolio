@@ -5,6 +5,8 @@ import Inicio from "./components/Inicio.tsx";
 import Habilidades from "./components/Habilidades.tsx";
 import Proyectos from "./components/Proyectos.tsx";
 import Certificaciones from "./components/Certificaciones.tsx";
+import Contactame from "./components/Contactame.tsx";
+import Footer from "./components/Footer.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -14,5 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Habilidades />
     <Proyectos />
     <Certificaciones />
+    <Contactame />
+    <Footer />
   </React.StrictMode>
 );
