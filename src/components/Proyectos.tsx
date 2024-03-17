@@ -1,12 +1,20 @@
 import "../styles/proyectos.scss";
 import { FaGithub } from "react-icons/fa6";
 import { TfiWorld } from "react-icons/tfi";
-import { FaReact, FaSass, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiAngular, SiTypescript } from "react-icons/si";
+import { FaCss3, FaReact, FaSass, FaNodeJs, FaPhp } from "react-icons/fa";
+import {
+  SiMysql,
+  SiMongodb,
+  SiExpress,
+  SiAngular,
+  SiTypescript,
+} from "react-icons/si";
+import { DiJqueryLogo } from "react-icons/di";
 import project_HVA from "../assets/project_HVA.png";
 import project_BS from "../assets/project_BS.png";
 import projet_EBOOK from "../assets/project_EBOOK.png";
 import project_ST from "../assets/project_ST.png";
+import project_NP from "../assets/project_NotePad.png";
 
 function Proyectos() {
   return (
@@ -20,7 +28,7 @@ function Proyectos() {
         <div className="boxProject">
           <div className="boxImagen">
             <div className="boxImagen_img">
-              <img src={project_HVA} title="HVA" alt="HVA" />
+              <img src={project_HVA} title="HotelVirtualAssitant" alt="HVA" />
             </div>
           </div>
           <div className="boxProjectInfo">
@@ -117,7 +125,7 @@ function Proyectos() {
         <div className="boxProject">
           <div className="boxImagen">
             <div className="boxImagen_img">
-              <img src={projet_EBOOK} title="HVA" alt="HVA" />
+              <img src={projet_EBOOK} title="E-Book" alt="HVA" />
             </div>
           </div>
           <div className="boxProjectInfo">
@@ -168,7 +176,7 @@ function Proyectos() {
         <div className="boxProject">
           <div className="boxImagen">
             <div className="boxImagen_img">
-              <img src={project_ST} title="ST" alt="ST" />
+              <img src={project_ST} title="SolThink" alt="ST" />
             </div>
           </div>
           <div className="boxProjectInfo">
@@ -202,6 +210,56 @@ function Proyectos() {
               <button className="github">
                 <a
                   href="https://github.com/juanRCoder/SolvThink-Resuelve_rapido"
+                  target="_BLANK"
+                >
+                  <p>GitHub</p>
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="boxProject">
+          <div className="boxImagen">
+            <div className="boxImagen_img">
+              <img src={project_NP} title="NotePad" alt="ST" />
+            </div>
+          </div>
+          <div className="boxProjectInfo">
+            <h1>NotePad: Gestor de notas</h1>
+            <div className="boxTecnologias">
+              <button>
+                <FaPhp className="icon php app" />
+                <p>php</p>
+              </button>
+              <button>
+                <DiJqueryLogo className="icon typescript" />
+                <p>jQuery</p>
+              </button>
+              <button>
+                <SiMysql className="icon mysql app" />
+                <p>mySQL</p>
+              </button>
+              <button>
+                <FaCss3 className="icon typescript" />
+                <p>CSS</p>
+              </button>
+            </div>
+            <p className="infoProject">
+              Gestor de notas el cual realiza las operaciones basicas de gestión
+              crear, leer, actualizar, eliminar notas en este caso, tambien tiene
+              una autenticación de usuarios para mayor seguridad.
+            </p>
+            <div className="linksProject">
+              <button className="web">
+                <a href="https://www.youtube.com/watch?v=FytfIC_IsOY" target="_BLANK">
+                  <p>Video-Demo</p>
+                  <TfiWorld />
+                </a>
+              </button>
+              <button className="github">
+                <a
+                  href="https://github.com/juanRCoder/NotePad-note_management"
                   target="_BLANK"
                 >
                   <p>GitHub</p>

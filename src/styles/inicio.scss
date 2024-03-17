@@ -65,6 +65,8 @@ section {
           > a {
             color: #00bcd4;
             text-decoration: none;
+            display: block;
+            width: 100%;
             
             &:hover {
               color: #fff;
@@ -73,6 +75,7 @@ section {
 
           &:hover {
             letter-spacing: 3px;
+            color: #fff;
             background-color: #00bcd4;
           }
         }
