@@ -8,7 +8,8 @@
   padding: 50px 0;
 
   > h1 {
-    color: #26e6ff;
+    color: #4CAF50;
+    text-shadow: 0 0 60px #4CAF50;
     font-size: 43px;
     text-align: left;
     margin: 0;
@@ -78,7 +79,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #169483;
+            background-color: #2e6c30;
             padding: 12px 20px;
             border-radius: 10px;
             border: 1px solid #fff;
@@ -98,7 +99,7 @@
 
             &:hover {
               transform: scale(1.1);
-              box-shadow: 0 0 20px #169483;
+              box-shadow: 0 0 20px #2e6c30;
             }
           }
         }

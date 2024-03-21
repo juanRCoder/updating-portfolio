@@ -4,7 +4,8 @@ section {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
+
 
   .containerPerfil {
     text-align: center;
@@ -40,7 +41,8 @@ section {
       > h3 {
         margin: 0;
         font-size: 50px;
-        color: #26e6ff;
+        color: #4CAF50;
+        text-shadow: 0 0 40px #4CAF50;
       }
 
       .contact {
@@ -58,12 +60,12 @@ section {
           letter-spacing: 1.5px;
           text-transform: uppercase;
           font-size: 15px;
-          outline: 1px solid #00bcd4;
+          outline: 1px solid #4CAF50;
           transition-duration: 0.5s;
           transition-timing-function: ease;
 
           > a {
-            color: #00bcd4;
+            color: #4CAF50;
             text-decoration: none;
             display: block;
             width: 100%;
@@ -76,7 +78,8 @@ section {
           &:hover {
             letter-spacing: 3px;
             color: #fff;
-            background-color: #00bcd4;
+            background-color: #4CAF50;
+            text-shadow: 0 0 40px #4CAF50;
           }
         }
       }
@@ -93,8 +96,6 @@ section {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(221, 221, 221, 0.0666666667);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     max-width: 1365px;
 
     > h2 {
@@ -102,7 +103,8 @@ section {
       padding: 10px 5% 10px 5%;
       margin: 0;
       font-size: 43px;
-      color: #26e6ff;
+      color: #4CAF50;
+      text-shadow: 0 0 60px #4CAF50;
 
       @media (max-width: 1024px) {
         font-size: 35px;
