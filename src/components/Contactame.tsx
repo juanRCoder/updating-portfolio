@@ -14,11 +14,6 @@ function Contactame() {
         Encuéntrame en:
       </p>
       <div className="boxContact">
-        <a href="https://wa.me/51956402456">
-          <FaWhatsapp className="iconContact" />
-          <p>WhatsApp</p>
-        </a>
-
         <a href="mailto:guillecarck@gmail.com">
           <CgMail className="iconContact" />
           <p>Gmail</p>
