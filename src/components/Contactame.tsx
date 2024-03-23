@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import "../styles/contactame.scss";
@@ -16,22 +16,18 @@ function Contactame() {
       <div className="boxContact">
         <a href="mailto:guillecarck@gmail.com">
           <CgMail className="iconContact" />
-          <p>Gmail</p>
         </a>
 
         <a href="https://www.instagram.com/juanrcoder/">
-          <FaInstagram className="iconContact" />
-          <p>Instagram</p>
+          <FaInstagram className="iconContact" />    
         </a>
 
         <a href="https://www.linkedin.com/in/juan-ramirez-490b84271/">
-          <FaLinkedin className="iconContact" />
-          <p>Linkedin</p>
+          <FaLinkedin className="iconContact" /> 
         </a>
 
         <a href="https://twitter.com/Yuan22Rm">
           <FaXTwitter className="iconContact" />
-          <p>Twitter</p>
         </a>
       </div>
     </section>
