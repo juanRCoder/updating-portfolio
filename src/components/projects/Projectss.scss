@@ -57,7 +57,7 @@
             background-color: #111;
           }
           &:nth-child(2) {
-            background-color: #055b76;
+            background-color: #97FF8A;
           }
 
           > .rIcon {
@@ -71,13 +71,12 @@
       flex-wrap: wrap;
 
       > span {
-        outline: 1px solid #05789d2e;
         font-size: 11px;
         padding: 3px 8px;
 
         > svg {
           padding-right: 3px;
-          color: #05789d;
+          color: #97FF8A;
         }
       }
     }
@@ -86,7 +85,7 @@
       margin: 0;
       font-size: 20px;
       text-decoration: underline;
-      color: #05789d;
+      color: #97FF8A;
     }
     > p {
       margin: 0;

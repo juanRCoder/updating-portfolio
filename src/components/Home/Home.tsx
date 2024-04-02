@@ -6,10 +6,10 @@ import './Home.scss';
 
 function Perfil() {
     const icons = [
-        { to: 'https://www.instagram.com/juanrcoder/', icon: <FaInstagram /> },
-        { to: 'https://www.linkedin.com/in/juan-ramirez-490b84271/', icon: <FaLinkedin /> },
-        { to: 'https://github.com/juanRCoder', icon: <FaGithub /> },
-        { to: 'https://twitter.com/Yuan22Rm', icon: <FaXTwitter /> },
+        { to: 'https://www.instagram.com/juanrcoder/', icon: <FaInstagram />, title: "instagram"},
+        { to: 'https://www.linkedin.com/in/juan-ramirez-490b84271/', icon: <FaLinkedin />, title: "linkedin"},
+        { to: 'https://github.com/juanRCoder', icon: <FaGithub />, title: "github"},
+        { to: 'https://twitter.com/Yuan22Rm', icon: <FaXTwitter />, title: "twitter"},
     ];
     return (
         <article className='perfilContainer'>
@@ -21,9 +21,9 @@ function Perfil() {
                 <h1 className='perfilContainer_box_job'>Desarrollador Web / Programador Junior</h1>
                 <div className='perfilContainer_box_redes'>
                     {icons.map((icon, i) => (
-                        <a href={icon.to} target="_BLANK" className="perfilContainer_box_redes_span" key={i}>{icon.icon}</a>
+                        <a href={icon.to} target="_BLANK" className="perfilContainer_box_redes_span" key={i} title={icon.title}>{icon.icon}</a>
                     ))}
-                    <a href={pdf} download className="perfilContainer_box_redes_span" title="CV" style={{color: '#aaa'}}><IoDocumentText /></a>
+                    <a href={pdf} download className="perfilContainer_box_redes_span" title="CV" style={{color: '#000'}}><IoDocumentText /></a>
                 </div>
             </section>
         </article>

@@ -7,7 +7,7 @@
 
   &_box {
     text-align: center;
-    color: #1a8fb4;
+    color: #97FF8A;
 
     &_photo {
       mix-blend-mode: difference;
@@ -34,21 +34,21 @@
       font-size: x-large;
     }
     &_redes {
-      color: #ffffff;
       display: flex;
       justify-content: center;
       gap: 10px;
       margin-top: 10px;
 
       &_span {
-        background-color: #1a8fb4;
+        background-color: #97FF8A;
+        color: #000;
         border-radius: 50%;
         padding: 3px 8px 0;
         font-size: 20px;
         cursor: pointer;
         transition: box-shadow 0.3s ease;
         &:hover {
-          box-shadow: 0 0 8px 1px #1a8fb4;
+          box-shadow: 0 0 8px 1px #7FFFD4;
         }
       }
     }
