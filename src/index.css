@@ -4,18 +4,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
+  background-color: light-dark(#050508, #050508);
 }
 body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
-  &::-webkit-scrollbar {
-    width: 10px;
-    background-color: #dddddd22;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #181b1d;
-    border-radius: 5px;
-  }
 }

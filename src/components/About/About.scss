@@ -1,0 +1,21 @@
+.aboutContainer {
+  width: 100%;
+
+  .aboutMe {
+    width: 95%;
+    margin: 25px auto;
+
+    > h1 {
+      font-size: xxx-large;
+      margin: 0;
+      border-bottom: 2px solid #05789d;
+      color: #0ca9db;
+    }
+    > p {
+      color: #aaa;
+      margin: 10px 0 0;
+      line-height: 1.8;
+      text-align: justify;
+    }
+  }
+}

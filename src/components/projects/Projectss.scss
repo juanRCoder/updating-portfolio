@@ -1,0 +1,97 @@
+@import "../About/About.scss";
+
+// 768
+.aboutContainer_projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 25px;
+
+  &_box {
+    position: relative;
+    outline: 1px solid #aaaaaa36;
+    color: #aaa;
+    padding: 10px;
+    min-width: 155px;
+
+    .imgContainer {
+      position: relative;
+
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .outline {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 97%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000cf;
+        gap: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        &:hover {
+          opacity: 1;
+        }
+
+        > a {
+          padding: 8px;
+          text-align: center;
+          width: 75%;
+          cursor: pointer;
+          text-decoration: none;
+          border: none;
+          border-radius: 2px;
+          color: #aaa;
+          &:hover {
+            outline: 1px solid #aaa;
+          }
+          &:first-child {
+            background-color: #111;
+          }
+          &:nth-child(2) {
+            background-color: #055b76;
+          }
+
+          > .rIcon {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+    .techContainer {
+      display: flex;
+      flex-wrap: wrap;
+
+      > span {
+        outline: 1px solid #05789d2e;
+        font-size: 11px;
+        padding: 3px 8px;
+
+        > svg {
+          padding-right: 3px;
+          color: #05789d;
+        }
+      }
+    }
+
+    > h1 {
+      margin: 0;
+      font-size: 20px;
+      text-decoration: underline;
+      color: #05789d;
+    }
+    > p {
+      margin: 0;
+      font-size: 10px;
+      text-align: justify;
+    }
+  }
+}
