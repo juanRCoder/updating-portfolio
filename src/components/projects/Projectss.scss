@@ -30,11 +30,10 @@
         width: 100%;
         height: 97%;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #000000cf;
-        gap: 10px;
+        gap: 20px;
         opacity: 0;
         transition: opacity 0.3s ease;
         &:hover {
@@ -42,26 +41,14 @@
         }
 
         > a {
-          padding: 8px;
           text-align: center;
-          width: 75%;
           cursor: pointer;
           text-decoration: none;
           border: none;
-          border-radius: 2px;
           color: #aaa;
+          font-size: xx-large;
           &:hover {
-            outline: 1px solid #aaa;
-          }
-          &:first-child {
-            background-color: #111;
-          }
-          &:nth-child(2) {
-            background-color: #97FF8A;
-          }
-
-          > .rIcon {
-            padding-right: 5px;
+            color: #97ff8a;
           }
         }
       }
@@ -76,7 +63,7 @@
 
         > svg {
           padding-right: 3px;
-          color: #97FF8A;
+          color: #97ff8a;
         }
       }
     }
@@ -85,7 +72,7 @@
       margin: 0;
       font-size: 20px;
       text-decoration: underline;
-      color: #97FF8A;
+      color: #97ff8a;
     }
     > p {
       margin: 0;

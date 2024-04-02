@@ -22,8 +22,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={HVA} alt='HVA' title='Hotel Virtual Assitant' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Hotel_Virtual_Assitant"><FaGithub className="rIcon" />GitHub</a>
-                            <a href="https://juanrcoder.github.io/Project-Landing_HVA/">< FaEarthAmericas className="rIcon" />Web</a>
+                            <a href="https://github.com/juanRCoder/Hotel_Virtual_Assitant" title="github"><FaGithub/></a>
+                            <a href="https://juanrcoder.github.io/Project-Landing_HVA/" title="web">< FaEarthAmericas/></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -41,7 +41,7 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={BS} alt='BS' title='Bank Simulator' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Bank-Simulator"><FaGithub className="rIcon" />GitHub</a>
+                            <a href="https://github.com/juanRCoder/Bank-Simulator" title="github"><FaGithub/></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -59,8 +59,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={EBOOK} alt='EBOOK' title='E-Books' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/E-Books"><FaGithub className="rIcon" />GitHub</a>
-                            <a href="https://juanrcoder.github.io/E-Books/">< FaEarthAmericas className="rIcon" />Web</a>
+                            <a href="https://github.com/juanRCoder/E-Books" title="github"><FaGithub/></a>
+                            <a href="https://juanrcoder.github.io/E-Books/" title="web">< FaEarthAmericas/></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -78,8 +78,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={ST} alt='ST' title='SolvThink' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/SolvThink-Resuelve_rapido"><FaGithub className="rIcon" />GitHub</a>
-                            <a href="https://solvthink.netlify.app/">< FaEarthAmericas className="rIcon" />Web</a>
+                            <a href="https://github.com/juanRCoder/SolvThink-Resuelve_rapido" title="github"><FaGithub /></a>
+                            <a href="https://solvthink.netlify.app/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -96,8 +96,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={TQ} alt='TQ' title='theme question' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Theme_Quizz"><FaGithub className="rIcon" />GitHub</a>
-                            <a href="https://theme-quiz.netlify.app/">< FaEarthAmericas className="rIcon" />Web</a>
+                            <a href="https://github.com/juanRCoder/Theme_Quizz" title="github"><FaGithub /></a>
+                            <a href="https://theme-quiz.netlify.app/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -114,8 +114,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={RIMBERIO} alt='TQ' title='rimberio' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/pageWeb-rimberio"><FaGithub className="rIcon" />GitHub</a>
-                            <a href="https://page-web-rimberio.vercel.app/">< FaEarthAmericas className="rIcon" />Web</a>
+                            <a href="https://github.com/juanRCoder/pageWeb-rimberio" title="github"><FaGithub /></a>
+                            <a href="https://page-web-rimberio.vercel.app/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
