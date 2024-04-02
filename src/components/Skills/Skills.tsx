@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaBootstrap, FaFigma, FaSass } from "react-icons/fa6";
-import { SiJavascript, SiTypescript, SiJquery, SiPython, SiFlask, SiMysql, SiMongodb, SiExpress, SiAngular, SiCanva } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiJquery, SiPython, SiFlask, SiMysql, SiMongodb, SiExpress, SiAngular, SiCanva, SiTailwindcss } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 
 import './Skills.scss';
@@ -25,6 +25,7 @@ function Skills() {
         { icon: <FaFigma className="rIcon" />, text: 'figma' },
         { icon: <TbBrandVscode className="rIcon" />, text: 'vsCode' },
         { icon: <FaSass className="rIcon" />, text: 'scss' },
+        { icon: <SiTailwindcss className="rIcon" />, text: 'tailwindCSS' },
     ]
     return (
         <article className='aboutContainer'>

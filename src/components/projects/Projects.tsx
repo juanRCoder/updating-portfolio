@@ -1,10 +1,11 @@
 import { FaReact, FaNodeJs, FaSass, FaGithub, FaEarthAmericas } from "react-icons/fa6";
-import { SiTypescript, SiMongodb, SiExpress, SiAngular } from "react-icons/si";
+import { SiTypescript, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "react-icons/si";
 import HVA from '../../assets/project_HVA.webp';
 import BS from '../../assets/project_BS.webp';
 import EBOOK from '../../assets/project_EBOOK.webp';
 import ST from '../../assets/project_ST.webp';
 import TQ from '../../assets/project_TQ.webp';
+import RIMBERIO from '../../assets/project_RIMBERIO.webp';
 import './Projectss.scss';
 
 function Projects() {
@@ -13,8 +14,7 @@ function Projects() {
             <div className='aboutMe'>
                 <h1>Proyectos</h1>
                 <p>
-                    Este es un vistazo a mi trayectoria y los proyectos que he desarrollado. Mi experiencia abarca una amplia gama de proyectos, desde aplicaciones web hasta Progressive Web Apps (PWA), así como sitios web y otros proyectos.
-                    Estos proyectos representan un trabajo en constante evolución, ya que estoy siempre buscando aprender y mejorar.
+                    Proyectos actuales en constante actualizacion, mejorando la calidad y eficencia.
                 </p>
             </div>
             <section className='aboutContainer_projects'>
@@ -108,6 +108,23 @@ function Projects() {
                     <h1>Theme Question</h1>
                     <p>
                         Aplicativo web donde podras resolveras distintas preguntas de 4 categorias, diviertete y aprende algo nuevo con este aplicativo divertido.
+                    </p>
+                </div>
+                <div className='aboutContainer_projects_box'>
+                    <div className='imgContainer'>
+                        <img src={RIMBERIO} alt='TQ' title='rimberio' />
+                        <div className='outline'>
+                            <a href="https://github.com/juanRCoder/pageWeb-rimberio"><FaGithub className="rIcon" />GitHub</a>
+                            <a href="https://page-web-rimberio.vercel.app/">< FaEarthAmericas className="rIcon" />Web</a>
+                        </div>
+                    </div>
+                    <div className='techContainer'>
+                        <span><FaReact />reactTS</span>
+                        <span><SiTailwindcss />TailwindCSS</span>
+                    </div>
+                    <h1>Landing Rimberio</h1>
+                    <p>
+                        Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.
                     </p>
                 </div>
             </section>
