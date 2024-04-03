@@ -1,26 +1,32 @@
 footer {
-    width: 95%;
-    height: 50px;
-    margin: auto;
-    border-top: 2px solid #97FF8A;
+  width: 95%;
+  margin: auto;
+  border-top: 2px solid #97ff8a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #aaa;
+  font-size: 18px;
+  padding: 20px 0;
+  @media screen and (max-width: 410px) {
+    display: block;
+  }
+
+  > a {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: #aaa;
-    font-size: 18px;
-    padding: 20px 0px;
-
-    > a {
-        display: flex;
-        align-items: center;
-        :hover {
-            color: #97FF8A;
-        }
-
-        .iconR {
-            transform: scale(2.5);
-            margin-right: 20px;
-            color: #97FF8A;;
-        }
+    :hover {
+      color: #97ff8a;
     }
+    @media screen and (max-width: 410px) {
+        display: flow;
+        text-align: right;
+    }
+
+    .iconR {
+      transform: scale(2.5);
+      margin-right: 20px;
+      color: #97ff8a;
+    }
+  }
 }

@@ -7,7 +7,7 @@
 
   &_box {
     text-align: center;
-    color: #97FF8A;
+    color: #97ff8a;
 
     &_photo {
       mix-blend-mode: difference;
@@ -15,9 +15,14 @@
       width: 85%;
       margin: auto;
 
+      @media screen and (max-width: 500px) {
+        width: 50%;
+      }
+
       > img {
         border-radius: 50%;
         width: 100%;
+        height: 100%;
         object-fit: cover;
         outline: 6px solid #aaa;
       }
@@ -26,12 +31,18 @@
       font-weight: bold;
       font-size: xxx-large;
       margin: 10px 0 0;
+      @media screen and (max-width: 500px) {
+        font-size: xx-large;
+      }
     }
     &_job {
       color: #aaa;
       margin: -10px 0 0 0;
       font-weight: 400;
       font-size: x-large;
+      @media screen and (max-width: 500px) {
+        font-size: larger;
+      }
     }
     &_redes {
       display: flex;
@@ -40,7 +51,7 @@
       margin-top: 10px;
 
       &_span {
-        background-color: #97FF8A;
+        background-color: #97ff8a;
         color: #000;
         border-radius: 50%;
         padding: 3px 8px 0;
@@ -48,7 +59,7 @@
         cursor: pointer;
         transition: box-shadow 0.3s ease;
         &:hover {
-          box-shadow: 0 0 8px 1px #7FFFD4;
+          box-shadow: 0 0 8px 1px #7fffd4;
         }
       }
     }

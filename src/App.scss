@@ -1,7 +1,10 @@
 .MainInterface {
-display: flex;
-    flex-direction: column;
-    max-width: 1350px;
-    margin: auto;
-    width: 85%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1350px;
+  margin: auto;
+  width: 85%;
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 }
