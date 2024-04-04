@@ -114,8 +114,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={RIMBERIO} alt='TQ' title='rimberio' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/pageWeb-rimberio" title="github"><FaGithub /></a>
-                            <a href="https://page-web-rimberio.vercel.app/" title="web">< FaEarthAmericas /></a>
+                            <a href="https://github.com/juanRCoder/Web-pages/tree/main/src/Rimberio" title="github"><FaGithub /></a>
+                            <a href="https://web-pages-nu.vercel.app/rimberio" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
