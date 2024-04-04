@@ -22,8 +22,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={HVA} alt='HVA' title='Hotel Virtual Assitant' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Hotel_Virtual_Assitant" title="github"><FaGithub/></a>
-                            <a href="https://juanrcoder.github.io/Project-Landing_HVA/" title="web">< FaEarthAmericas/></a>
+                            <a href="https://github.com/juanRCoder/Hotel_Virtual_Assitant" title="github"><FaGithub /></a>
+                            <a href="https://juanrcoder.github.io/Project-Landing_HVA/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -41,7 +41,7 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={BS} alt='BS' title='Bank Simulator' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Bank-Simulator" title="github"><FaGithub/></a>
+                            <a href="https://github.com/juanRCoder/Bank-Simulator" title="github"><FaGithub /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -59,8 +59,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={EBOOK} alt='EBOOK' title='E-Books' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/E-Books" title="github"><FaGithub/></a>
-                            <a href="https://juanrcoder.github.io/E-Books/" title="web">< FaEarthAmericas/></a>
+                            <a href="https://github.com/juanRCoder/E-Books" title="github"><FaGithub /></a>
+                            <a href="https://juanrcoder.github.io/E-Books/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -78,8 +78,8 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={ST} alt='ST' title='SolvThink' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/SolvThink-Resuelve_rapido" title="github"><FaGithub /></a>
-                            <a href="https://solvthink.netlify.app/" title="web">< FaEarthAmericas /></a>
+                            <a href="https://github.com/juanRCoder/Angular-mini-projects/tree/main/src/app/solvthink" title="github"><FaGithub /></a>
+                            <a href="https://angular-mini-projects.vercel.app/solvthink" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -96,16 +96,16 @@ function Projects() {
                     <div className='imgContainer'>
                         <img src={TQ} alt='TQ' title='theme question' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Theme_Quizz" title="github"><FaGithub /></a>
-                            <a href="https://theme-quiz.netlify.app/" title="web">< FaEarthAmericas /></a>
+                            <a href="https://github.com/juanRCoder/Angular-mini-projects/tree/main/src/app/theme-quizz" title="github"><FaGithub /></a>
+                            <a href="https://angular-mini-projects.vercel.app/theme-quizz" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
-                        <span><FaSass />scss</span>
-                        <span><FaReact />reactTS</span>
+                        <span><SiAngular />angular17</span>
                         <span><SiTypescript />typescript</span>
+                        <span><FaSass />scss</span>
                     </div>
-                    <h1>Theme Question</h1>
+                    <h1>Theme Quizz</h1>
                     <p>
                         Aplicativo web donde podras resolveras distintas preguntas de 4 categorias, diviertete y aprende algo nuevo con este aplicativo divertido.
                     </p>
