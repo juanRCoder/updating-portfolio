@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaBootstrap, FaFigma, FaSass } from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaFigma, FaSass } from "react-icons/fa6";
 import { SiJavascript, SiTypescript, SiJquery, SiPython, SiFlask, SiMysql, SiMongodb, SiExpress, SiAngular, SiCanva, SiTailwindcss } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 
@@ -21,7 +21,6 @@ function Skills() {
         { icon: <SiExpress className="rIcon" />, text: 'expressJS' },
         { icon: <SiAngular className="rIcon" />, text: 'angular17' },
         { icon: <SiCanva className="rIcon" />, text: 'canvas' },
-        { icon: <FaBootstrap className="rIcon" />, text: 'bootstrap' },
         { icon: <FaFigma className="rIcon" />, text: 'figma' },
         { icon: <TbBrandVscode className="rIcon" />, text: 'vsCode' },
         { icon: <FaSass className="rIcon" />, text: 'scss' },
