@@ -3,9 +3,9 @@ import { SiTypescript, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "re
 import HVA from '../../assets/project_HVA.webp';
 import BS from '../../assets/project_BS.webp';
 import EBOOK from '../../assets/project_EBOOK.webp';
-import ST from '../../assets/project_ST.webp';
-import TQ from '../../assets/project_TQ.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
+import ReactProjects from '../../assets/reactMiniProjects.webp';
+import AngularProjects from '../../assets/angularMiniProjects.webp';
 import './Projectss.scss';
 
 function Projects() {
@@ -76,10 +76,10 @@ function Projects() {
                 </div>
                 <div className='aboutContainer_projects_box'>
                     <div className='imgContainer'>
-                        <img src={ST} alt='ST' title='SolvThink' />
+                        <img src={AngularProjects} alt='AngularProjects' title='AngularProjects' />
                         <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Angular-mini-projects/tree/main/src/app/solvthink" title="github"><FaGithub /></a>
-                            <a href="https://angular-mini-projects.vercel.app/solvthink" title="web">< FaEarthAmericas /></a>
+                            <a href="https://github.com/juanRCoder/Angular-mini-projects" title="github"><FaGithub /></a>
+                            <a href="https://angular-mini-projects.vercel.app/" title="web">< FaEarthAmericas /></a>
                         </div>
                     </div>
                     <div className='techContainer'>
@@ -87,27 +87,9 @@ function Projects() {
                         <span><SiTypescript />typescript</span>
                         <span><FaSass />scss</span>
                     </div>
-                    <h1>SolvThink</h1>
+                    <h1>Angular Mini Projects</h1>
                     <p>
-                        Aplicativo donde puedes resolver operaciones basicas de matematicas, asi puedes mejorar tu pensamiento logico con las matematicas del dia a dia.
-                    </p>
-                </div>
-                <div className='aboutContainer_projects_box'>
-                    <div className='imgContainer'>
-                        <img src={TQ} alt='TQ' title='theme question' />
-                        <div className='outline'>
-                            <a href="https://github.com/juanRCoder/Angular-mini-projects/tree/main/src/app/theme-quizz" title="github"><FaGithub /></a>
-                            <a href="https://angular-mini-projects.vercel.app/theme-quizz" title="web">< FaEarthAmericas /></a>
-                        </div>
-                    </div>
-                    <div className='techContainer'>
-                        <span><SiAngular />angular17</span>
-                        <span><SiTypescript />typescript</span>
-                        <span><FaSass />scss</span>
-                    </div>
-                    <h1>Theme Quizz</h1>
-                    <p>
-                        Aplicativo web donde podras resolveras distintas preguntas de 4 categorias, diviertete y aprende algo nuevo con este aplicativo divertido.
+                        Desarrollo de mini proyectos aplicando angular-scss-typescript, web site en constante actualizacion de proyectos.
                     </p>
                 </div>
                 <div className='aboutContainer_projects_box'>
@@ -125,6 +107,24 @@ function Projects() {
                     <h1>Landing Rimberio</h1>
                     <p>
                         Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.
+                    </p>
+                </div>
+                <div className='aboutContainer_projects_box'>
+                    <div className='imgContainer'>
+                        <img src={ReactProjects} alt='RMP' title='react-mini-projects' />
+                        <div className='outline'>
+                            <a href="https://github.com/juanRCoder/React-mini-projects" title="github"><FaGithub /></a>
+                            <a href="https://react-mini-projects-2ao4.vercel.app/" title="web">< FaEarthAmericas /></a>
+                        </div>
+                    </div>
+                    <div className='techContainer'>
+                        <span><FaReact />ReacTSX</span>
+                        <span><SiTypescript />TypeScript</span>
+                        <span><SiTailwindcss />TailwindCSS</span>
+                    </div>
+                    <h1>React Mini Projects</h1>
+                    <p>
+                        Desarrollo de mini-proyectos con react-tailwind-typescript , web site en constante actualizacion de proyectos.
                     </p>
                 </div>
             </section>
