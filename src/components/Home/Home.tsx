@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { IoDocumentText } from "react-icons/io5";
 import photo from '../../assets/photo.webp';
 import pdf from '../../assets/JuanRamirez_CV.pdf';
@@ -6,10 +6,8 @@ import './Home.scss';
 
 function Perfil() {
     const icons = [
-        { to: 'https://www.instagram.com/juanrcoder/', icon: <FaInstagram />, title: "instagram"},
         { to: 'https://www.linkedin.com/in/juan-ramirez-490b84271/', icon: <FaLinkedin />, title: "linkedin"},
         { to: 'https://github.com/juanRCoder', icon: <FaGithub />, title: "github"},
-        { to: 'https://twitter.com/Yuan22Rm', icon: <FaXTwitter />, title: "twitter"},
     ];
     return (
         <article className='perfilContainer'>
