@@ -11,7 +11,7 @@ function Skills() {
         { icon: <SiTypescript className="rIcon" />, text: 'TYPESCRIPT' },
         { icon: <SiJquery className="rIcon" />, text: 'JQUERY' },
         { icon: <FaReact className="rIcon" />, text: 'REACT' },
-        { icon: <SiAngular className="rIcon" />, text: 'ANGULAR17' },
+        { icon: <SiAngular className="rIcon" />, text: 'ANGULAR' },
         { icon: <FaFigma className="rIcon" />, text: 'FIGMA' },
         { icon: <FaSass className="rIcon" />, text: 'SCSS' },
         { icon: <SiTailwindcss className="rIcon" />, text: 'TAILWINDCSS' },

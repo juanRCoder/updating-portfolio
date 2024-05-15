@@ -16,7 +16,7 @@ function Perfil() {
                     <img src={photo} alt='photo' title='juanRamirez' />
                 </div>
                 <h1 className='perfilContainer_box_name'>Juan Ramirez</h1>
-                <h1 className='perfilContainer_box_job'>Desarrollador Web / Programador Junior</h1>
+                <h1 className='perfilContainer_box_job'>Desarrollador Web Front-End</h1>
                 <div className='perfilContainer_box_redes'>
                     {icons.map((icon, i) => (
                         <a href={icon.to} target="_BLANK" className="perfilContainer_box_redes_span" key={i} title={icon.title}>{icon.icon}</a>
