@@ -1,11 +1,20 @@
-import { CgMail } from "react-icons/cg";
 import './Contact.scss';
+import { CgMail } from "react-icons/cg";
 
 function Contact() {
   return (
-    <footer>
-        <p>Contactame:</p>
-        <a href="mailto:guillecarck@gmail.com"><CgMail className="iconR"/><i>guillecarck@gmail.com</i></a>
+    <footer className='aboutContainer footerContainer'>
+      <div className='aboutMe'>
+        <h1>¡Trabajemos juntos!</h1>
+        <p>¡Estoy listo para comenzar a trabajar en tu proyecto! Contáctame para coordinar y empezar a trabajar en equipo.</p>
+      </div>
+      <div className='aboutMe'>
+        <a className='a' href="mailto:guillecarck@gmail.com">
+          <CgMail className='img'/>
+          <p className='texto'>guillecarck</p>
+        </a>
+      </div>
+
     </footer>
   )
 }
