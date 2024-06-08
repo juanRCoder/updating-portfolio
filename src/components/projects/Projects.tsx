@@ -49,8 +49,8 @@ function Projects() {
         {
             img: RIMBERIO,
             title: 'Landing Rimberio',
-            github: 'https://github.com/juanRCoder/Web-pages/tree/main/src/Rimberio',
-            website: 'https://web-pages-nu.vercel.app/rimberio',
+            github: 'https://github.com/juanRCoder/react-projects/tree/main/src/Pages/Rimberio',
+            website: 'https://react-projects-2024.vercel.app/rimberio',
             description: 'Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.',
             tecnologias: [<FaReact />, <SiTailwindcss />],
             names: ['ReactTSX', 'TailwindCSS']
