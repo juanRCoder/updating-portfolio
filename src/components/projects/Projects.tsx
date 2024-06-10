@@ -21,12 +21,12 @@ function Projects() {
         },
         {
             img: BS,
-            title: 'Banks Simulator',
-            github: 'https://github.com/juanRCoder/Bank-Simulator',
-            website: '',
-            description: 'Simulador bancaria capaz de realizar transferencias, retiro, deposito, las operacions basicoas y tambien revisar la informacion bancaria del usuario.',
-            tecnologias: [<SiMongodb />, <SiExpress />, <FaReact />, <FaNodeJs />],
-            names: ['MongoDB', 'ExpressJS', 'ReactJSX', 'NodeJS']
+            title: 'Translate app',
+            github: 'https://github.com/juanRCoder/angular-projects/tree/main/src/app/translate-app',
+            website: 'https://angular-mini-projects.vercel.app/translate-app',
+            description: 'Traductor para textos en el cual puedes escoger entre tres idiomas español, inglés o francés.',
+            tecnologias: [<SiAngular />, <SiTypescript />, <FaSass />],
+            names: ['Angular', 'TypeScript', 'SCSS']
         },
         {
             img: EBOOK,
@@ -44,7 +44,7 @@ function Projects() {
             website: 'https://angular-mini-projects.vercel.app/',
             description: 'Desarrollo de mini proyectos aplicando angular-scss-typescript, web site en constante actualizacion de proyectos.',
             tecnologias: [<SiAngular />, <SiTypescript />, <FaSass />],
-            names: ['Angular17', 'TypeScript', 'SCSS']
+            names: ['Angular', 'TypeScript', 'SCSS']
         },
         {
             img: RIMBERIO,
@@ -59,7 +59,7 @@ function Projects() {
             img: ReactProjects,
             title: 'React Mini Projects',
             github: 'https://github.com/juanRCoder/React-mini-projects',
-            website: 'https://react-mini-projects-2ao4.vercel.app/',
+            website: 'https://react-projects-2024.vercel.app/',
             description: 'Desarrollo de mini-proyectos con react-tailwind-typescript , web site en constante actualizacion de proyectos.',
             tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
             names: ['ReactTSX', 'TypeScript', 'TailwindCSS']
@@ -82,7 +82,7 @@ function Projects() {
                                 <div className='outline'>
                                     <a href={project.github} title="github"><FaGithub /></a>
                                     {project.website !== '' 
-                                        ? <a href={project.website} title="web">< FaEarthAmericas /></a>
+                                        ? <a href={project.website} title="web" target="_BLANK">< FaEarthAmericas /></a>
                                         : ''
                                     }
                                 </div>
