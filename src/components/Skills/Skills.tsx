@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaFigma, FaSass } from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaFigma, FaSass, FaDocker } from "react-icons/fa6";
 import { SiJavascript, SiTypescript, SiJquery, SiPython, SiFlask, SiMysql, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "react-icons/si";
 
 import './Skills.scss';
@@ -27,6 +27,7 @@ function Skills() {
     const dataBases = [
         { icon: <SiMysql className="rIcon" />, text: 'MYSQL' },
         { icon: <SiMongodb className="rIcon" />, text: 'MONGODB' },
+        { icon: <FaDocker className="rIcon" />, text: 'DOCKER' },
     ]
     return (
         <article className='aboutContainer'>
@@ -48,7 +49,7 @@ function Skills() {
                         <span key={i}>{skill.icon}<p>{skill.text}</p></span>
                     ))}
                 </div>
-                <h3 className="h3">Bases de datos</h3>
+                <h3 className="h3">Bases de datos y DevOps</h3>
                 <div className="gridContainer">
                     {dataBases.map((skill, i) => (
                         <span key={i}>{skill.icon}<p>{skill.text}</p></span>
