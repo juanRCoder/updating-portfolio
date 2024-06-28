@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaFigma, FaSass, FaDocker } from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs, FaFigma, FaSass, FaDocker, FaVuejs } from "react-icons/fa6";
 import { SiJavascript, SiTypescript, SiJquery, SiPython, SiFlask, SiMysql, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "react-icons/si";
 
 import './Skills.scss';
@@ -15,6 +15,7 @@ function Skills() {
         { icon: <FaFigma className="rIcon" />, text: 'FIGMA' },
         { icon: <FaSass className="rIcon" />, text: 'SCSS' },
         { icon: <SiTailwindcss className="rIcon" />, text: 'TAILWINDCSS' },
+        { icon: <FaVuejs className="rIcon" />, text: 'VUE' },
     ]
     const skillsBackend = [
         { icon: <FaNodeJs className="rIcon" />, text: 'NODE' },

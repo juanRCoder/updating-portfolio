@@ -1,6 +1,6 @@
-import { FaReact, FaNodeJs, FaSass, FaGithub, FaEarthAmericas } from "react-icons/fa6";
+import { FaReact, FaNodeJs, FaSass, FaGithub, FaEarthAmericas, FaVuejs } from "react-icons/fa6";
 import { SiTypescript, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "react-icons/si";
-import HVA from '../../assets/project_HVA.webp';
+import HVA from '../../assets/github-profile.png';
 import BS from '../../assets/project_BS.webp';
 import EBOOK from '../../assets/project_EBOOK.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
@@ -12,12 +12,12 @@ function Projects() {
     const projects = [
         {
             img: HVA,
-            title: 'Hotel Virtual Assitant',
+            title: 'Github Profile',
             github: 'https://github.com/juanRCoder/Hotel_Virtual_Assitant',
-            website: 'https://juanrcoder.github.io/Project-Landing_HVA/',
-            description: 'Asistente virtual hotelero donde el usuario puede consultar diferentes necesidades tenga en su estadia en el hotel, reduce el tiempo de respuesta.',
-            tecnologias: [<SiMongodb />, <SiExpress />, <FaReact />, <FaNodeJs />],
-            names: ['MongoDB', 'ExpressJS', 'ReactJSX', 'NodeJS']
+            website: 'https://vue-projects-r8hq.vercel.app/github-profile',
+            description: 'Buscador de perfiles de github, en el cual puedes encontrar la informacion del usuario mediante el username en github.',
+            tecnologias: [<FaVuejs />, <SiTailwindcss />, <SiTypescript />],
+            names: ['Vue', 'TailwindCSS', 'TypeScript']
         },
         {
             img: BS,
