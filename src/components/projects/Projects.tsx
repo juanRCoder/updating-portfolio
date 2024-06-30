@@ -1,8 +1,7 @@
-import { FaReact, FaNodeJs, FaSass, FaGithub, FaEarthAmericas, FaVuejs } from "react-icons/fa6";
-import { SiTypescript, SiMongodb, SiExpress, SiAngular, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaSass, FaGithub, FaEarthAmericas, FaVuejs } from "react-icons/fa6";
+import { SiTypescript, SiAngular, SiTailwindcss } from "react-icons/si";
 import HVA from '../../assets/github-profile.png';
 import BS from '../../assets/project_BS.webp';
-import EBOOK from '../../assets/project_EBOOK.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
 import ReactProjects from '../../assets/react_mini_projects.webp';
 import AngularProjects from '../../assets/angular_mini_projects.webp';
@@ -27,15 +26,6 @@ function Projects() {
             description: 'Traductor para textos en el cual puedes escoger entre tres idiomas español, inglés o francés.',
             tecnologias: [<SiAngular />, <SiTypescript />, <FaSass />],
             names: ['Angular', 'TypeScript', 'SCSS']
-        },
-        {
-            img: EBOOK,
-            title: 'E-Books',
-            github: 'https://github.com/juanRCoder/E-Books',
-            website: 'https://juanrcoder.github.io/E-Books/',
-            description: 'Sistema de gestion para biblioteca (e-books), puedes consultar un libro en especifico y tambien darle un seguimiento a los libros prestados.',
-            tecnologias: [<SiMongodb />, <SiExpress />, <FaReact />, <FaNodeJs />],
-            names: ['MongoDB', 'ExpressJS', 'ReactJSX', 'NodeJS']
         },
         {
             img: AngularProjects,
