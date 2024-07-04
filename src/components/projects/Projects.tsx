@@ -1,40 +1,39 @@
-import { FaReact, FaSass, FaGithub, FaEarthAmericas, FaVuejs } from "react-icons/fa6";
+import { FaReact, FaGithub, FaEarthAmericas, FaVuejs } from "react-icons/fa6";
 import { SiTypescript, SiAngular, SiTailwindcss } from "react-icons/si";
-import HVA from '../../assets/github-profile.png';
-import BS from '../../assets/project_BS.webp';
+import GithubProfile from '../../assets/github-profile.png';
+import TranslateApp from '../../assets/translate-app.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
-import ReactProjects from '../../assets/react_mini_projects.webp';
-import AngularProjects from '../../assets/angular_mini_projects.webp';
+import TipAmountApp from '../../assets/tip-amount-app.png';
 import './Projectss.scss';
 
 function Projects() {
     const projects = [
         {
-            img: HVA,
+            img: GithubProfile,
             title: 'Github Profile',
-            github: 'https://github.com/juanRCoder/Hotel_Virtual_Assitant',
+            github: 'https://github.com/juanRCoder/vue-projects-typescript-app/tree/main/src/projects/github-profile',
             website: 'https://vue-projects-r8hq.vercel.app/github-profile',
             description: 'Buscador de perfiles de github, en el cual puedes encontrar la informacion del usuario mediante el username en github.',
-            tecnologias: [<FaVuejs />, <SiTailwindcss />, <SiTypescript />],
-            names: ['Vue', 'TailwindCSS', 'TypeScript']
+            tecnologias: [<FaVuejs />, <SiTypescript />, <SiTailwindcss />],
+            names: ['Vue', 'TypeScript', 'TailwindCSS']
         },
         {
-            img: BS,
+            img: TranslateApp,
             title: 'Translate app',
             github: 'https://github.com/juanRCoder/angular-projects/tree/main/src/app/translate-app',
             website: 'https://angular-mini-projects.vercel.app/translate-app',
             description: 'Traductor para textos en el cual puedes escoger entre tres idiomas español, inglés o francés.',
-            tecnologias: [<SiAngular />, <SiTypescript />, <FaSass />],
-            names: ['Angular', 'TypeScript', 'SCSS']
+            tecnologias: [<SiAngular />, <SiTypescript />, <SiTailwindcss />],
+            names: ['Angular', 'TypeScript', 'TailwindCSS']
         },
         {
-            img: AngularProjects,
-            title: 'Angular Mini Projects',
-            github: 'https://github.com/juanRCoder/Angular-mini-projects',
-            website: 'https://angular-mini-projects.vercel.app/',
-            description: 'Desarrollo de mini proyectos aplicando angular-scss-typescript, web site en constante actualizacion de proyectos.',
-            tecnologias: [<SiAngular />, <SiTypescript />, <FaSass />],
-            names: ['Angular', 'TypeScript', 'SCSS']
+            img: TipAmountApp,
+            title: 'Tip Amount Calculator',
+            github: 'https://github.com/juanRCoder/react-projects-typescript-app/tree/main/src/tipAmount',
+            website: 'https://react-projects-2024.vercel.app/tip-amount',
+            description: 'Desarrollo de mini-proyectos con react-tailwind-typescript , web site en constante actualizacion de proyectos.',
+            tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
+            names: ['React', 'TypeScript', 'TailwindCSS']
         },
         {
             img: RIMBERIO,
@@ -42,17 +41,8 @@ function Projects() {
             github: 'https://github.com/juanRCoder/react-projects/tree/main/src/Pages/Rimberio',
             website: 'https://react-projects-2024.vercel.app/rimberio',
             description: 'Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.',
-            tecnologias: [<FaReact />, <SiTailwindcss />],
-            names: ['ReactTSX', 'TailwindCSS']
-        },
-        {
-            img: ReactProjects,
-            title: 'React Mini Projects',
-            github: 'https://github.com/juanRCoder/React-mini-projects',
-            website: 'https://react-projects-2024.vercel.app/',
-            description: 'Desarrollo de mini-proyectos con react-tailwind-typescript , web site en constante actualizacion de proyectos.',
-            tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
-            names: ['ReactTSX', 'TypeScript', 'TailwindCSS']
+            tecnologias: [<FaReact />, <SiTypescript/>, <SiTailwindcss />],
+            names: ['React', 'TypeScript', 'TailwindCSS']
         }
     ]
     return (
