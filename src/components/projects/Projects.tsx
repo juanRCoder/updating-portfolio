@@ -4,6 +4,7 @@ import GithubProfile from '../../assets/github-profile.png';
 import TranslateApp from '../../assets/translate-app.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
 import TipAmountApp from '../../assets/tip-amount-app.png';
+import CalculoFinanciero from '../../assets/calculo-financiero.png';
 import './Projectss.scss';
 
 function Projects() {
@@ -31,7 +32,7 @@ function Projects() {
             title: 'Tip Amount Calculator',
             github: 'https://github.com/juanRCoder/react-projects-typescript-app/tree/main/src/tipAmount',
             website: 'https://react-projects-2024.vercel.app/tip-amount',
-            description: 'Desarrollo de mini-proyectos con react-tailwind-typescript , web site en constante actualizacion de proyectos.',
+            description: 'Calculadora de propinas para restaurantes en caso haya muchoas personas que quieran otorgar propinas',
             tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
             names: ['React', 'TypeScript', 'TailwindCSS']
         },
@@ -43,7 +44,16 @@ function Projects() {
             description: 'Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.',
             tecnologias: [<FaReact />, <SiTypescript/>, <SiTailwindcss />],
             names: ['React', 'TypeScript', 'TailwindCSS']
-        }
+        },
+        {
+            img: CalculoFinanciero,
+            title: 'Calculo Financiero',
+            github: 'https://github.com/juanRCoder/angular-projects/tree/main/src/app/calculo-financiero',
+            website: 'https://angular-mini-projects.vercel.app/calculo-financiero',
+            description: 'Pagina web con finalidad de mostrar ingresos, gastos y ahorro economicos de manera grafica y expresiva',
+            tecnologias: [<SiAngular />, <SiTypescript />, <SiTailwindcss />],
+            names: ['Angular', 'TypeScript', 'TailwindCSS']
+        },
     ]
     return (
         <article className='aboutContainer'>
