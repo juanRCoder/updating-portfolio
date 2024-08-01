@@ -5,6 +5,7 @@ import TranslateApp from '../../assets/translate-app.webp';
 import RIMBERIO from '../../assets/project_RIMBERIO.webp';
 import TipAmountApp from '../../assets/tip-amount-app.png';
 import CalculoFinanciero from '../../assets/calculo-financiero.png';
+import Cvinter from '../../assets/cvinter.png';
 import './Projectss.scss';
 
 function Projects() {
@@ -42,7 +43,7 @@ function Projects() {
             github: 'https://github.com/juanRCoder/react-projects/tree/main/src/Pages/Rimberio',
             website: 'https://react-projects-2024.vercel.app/rimberio',
             description: 'Landing page de Rimberio, pasteleria, tienda de dulces, practicando tailwindCSS y reactTSX.',
-            tecnologias: [<FaReact />, <SiTypescript/>, <SiTailwindcss />],
+            tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
             names: ['React', 'TypeScript', 'TailwindCSS']
         },
         {
@@ -54,6 +55,15 @@ function Projects() {
             tecnologias: [<SiAngular />, <SiTypescript />, <SiTailwindcss />],
             names: ['Angular', 'TypeScript', 'TailwindCSS']
         },
+        {
+            img: Cvinter,
+            title: 'Cvinter',
+            github: 'https://github.com/juanRCoder/angular-projects/tree/main/src/app/calculo-financiero',
+            website: 'https://angular-mini-projects.vercel.app/calculo-financiero',
+            description: 'Pagina web en la cual puedes generar tu propio Curriculum tomando como plantilla 5 modelos muy atraticvos para las empresas',
+            tecnologias: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
+            names: ['React', 'TypeScript', 'TailwindCSS']
+        },
     ]
     return (
         <article className='aboutContainer'>
@@ -64,29 +74,29 @@ function Projects() {
                 </p>
             </div>
             <section className='aboutContainer_projects'>
-                {projects.map((project, i) => 
-                        <div key={i} className='aboutContainer_projects_box'>
+                {projects.map((project, i) =>
+                    <div key={i} className='aboutContainer_projects_box'>
 
-                            <div className='imgContainer'>
-                                <img src={project.img} alt={project.title} title={project.title} />
-                                <div className='outline'>
-                                    <a href={project.github} title="github"><FaGithub /></a>
-                                    {project.website !== '' 
-                                        ? <a href={project.website} title="web" target="_BLANK">< FaEarthAmericas /></a>
-                                        : ''
-                                    }
-                                </div>
+                        <div className='imgContainer'>
+                            <img src={project.img} alt={project.title} title={project.title} />
+                            <div className='outline'>
+                                <a href={project.github} title="github"><FaGithub /></a>
+                                {project.website !== ''
+                                    ? <a href={project.website} title="web" target="_BLANK">< FaEarthAmericas /></a>
+                                    : ''
+                                }
                             </div>
-                            <div className='techContainer'>
-                                <span>{project.tecnologias[0]}{project.names[0]}</span>
-                                <span>{project.tecnologias[1]}{project.names[1]}</span>
-                                <span>{project.tecnologias[2]}{project.names[2]}</span>
-                                <span>{project.tecnologias[3]}{project.names[3]}</span>
-                            </div>
-                            <h1>{project.title}</h1>
-                            <p>{project.description}</p>
                         </div>
-                    )}
+                        <div className='techContainer'>
+                            <span>{project.tecnologias[0]}{project.names[0]}</span>
+                            <span>{project.tecnologias[1]}{project.names[1]}</span>
+                            <span>{project.tecnologias[2]}{project.names[2]}</span>
+                            <span>{project.tecnologias[3]}{project.names[3]}</span>
+                        </div>
+                        <h1>{project.title}</h1>
+                        <p>{project.description}</p>
+                    </div>
+                )}
             </section>
         </article>
     )
